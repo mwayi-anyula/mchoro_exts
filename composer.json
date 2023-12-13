@@ -19,5 +19,6 @@
         "typo3/cms": {
             "extension-key": "mchoro_exts"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
