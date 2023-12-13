@@ -1,0 +1,4 @@
+#
+# BACKENDLAYOUTS
+#
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:mchoro_exts/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts" extensions="tsconfig">
