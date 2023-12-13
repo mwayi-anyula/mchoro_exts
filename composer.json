@@ -1,7 +1,7 @@
 {
     "name": "mwayi-anyula/mchoro-exts",
     "type": "typo3-cms-extension",
-    "description": "",
+    "description": "Mask extend extension with content elements",
     "homepage": "https://mwayianyula.com",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
@@ -20,5 +20,11 @@
             "extension-key": "mchoro_exts"
         }
     },
+    "authors": [
+        {
+          "name": "Mwayi Anyula",
+          "email": "mwai3d@gmail.com"
+        }
+      ],
     "minimum-stability": "stable"
 }
