@@ -4,7 +4,16 @@
     "description": "Mask extend extension with content elements",
     "homepage": "https://mwayianyula.com",
     "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
+    "keywords": [
+		"TYPO3 CMS",
+		"Mask",
+		"Contentelements",
+		"Wizard"
+	],
+    "require-dev": {
+		"typo3/testing-framework": "7.x-dev",
+		"typo3/coding-standards": "^0.6"
+	},
     "require": {
         "typo3/cms-core": "^12.4",
         "typo3/cms-rte-ckeditor": "^12.4",
@@ -23,8 +32,19 @@
     "authors": [
         {
           "name": "Mwayi Anyula",
-          "email": "mwai3d@gmail.com"
+          "role": "Developer",
+          "homepage": "https://mwayianyula.com"
         }
       ],
-    "minimum-stability": "stable"
+      "minimum-stability": "dev",
+      "prefer-stable": true,
+      "config": {
+          "vendor-dir": ".Build/vendor",
+          "bin-dir": ".Build/bin",
+          "platform-check": false,
+          "allow-plugins": {
+              "typo3/class-alias-loader": true,
+              "typo3/cms-composer-installers": true
+          }
+      }
 }
