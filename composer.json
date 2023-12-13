@@ -20,5 +20,5 @@
             "extension-key": "mchoro_exts"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
